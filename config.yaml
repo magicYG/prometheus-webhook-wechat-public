@@ -1,0 +1,14 @@
+templateid: "Aque6lzDaPq9N8EmG6G2hibiscSf9dfFc6j-Dw3V2Wc"
+appid: "wx4b672d7c6f2065ec"
+secret: "c3538f123dd2a650ac386a35b5dfc38a"
+chatgroups:
+  - name: lqf
+    chatids:
+      - "oRmVG6eXN-gj5YyG2CMvHlniZSQM"
+  - name: test
+    chatids:
+      - "oRmVG6eXN-gj5YyG2CMvHlniZSQM"
+  - name: all
+    chatids:
+      - "oRmVG6eXN-gj5YyG2CMvHlniZSQM"
+      - "oRmVG6bGsVlhfYqAet8BCowLoh1w"
