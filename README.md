@@ -51,3 +51,11 @@ usage: prom-webhook-wechat [<args>]
 ## Test request prometheus-webhook-wechat-public
 
 To view `exmple/send_alert.sh`
+
+## alertmanager侧配置
+
+在 Webhook 地址栏中填写
+
+http://{url}:8060/wechat/{groupname}/send
+
+其中{groupname}为config.yaml中对应的chatgroups.name的名称
