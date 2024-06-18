@@ -42,6 +42,16 @@ usage: prom-webhook-wechat [<args>]
 ./prom-webhook-wechat -config.file=config.yaml -wechat.apiurl=api.weixin.qq.com
 ```
 
+#### wechat template
+```
+告警状态: {{ status.DATA }}
+告警类型: {{ alertname.DATA }}
+告警级别: {{ severity.DATA }}
+告警实例: {{ instance.DATA }}
+告警内容: {{ message.DATA }}
+告警时间: {{ startsat.DATA }}
+```
+
 ## Test request prom-webhook-wechat
 
 To view `exmple/send_alert.sh`
