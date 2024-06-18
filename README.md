@@ -1,6 +1,6 @@
 # Webhook adapter for Prometheus & Send Alert To Wechat Group chat
 
-基于[XionZhao/prom-webhook-wechat](https://github.com/XionZhao/prom-webhook-wechat)改进
+基于[XionZhao/prom-webhook-wechat](https://github.com/XionZhao/prom-webhook-wechat)改进,使用微信模板消息发送告警
 
 ## Build
 
