@@ -17,6 +17,9 @@ usage: prom-webhook-wechat [<args>]
    -web.listen-address ":8060"
       Address to listen on for web interface.
 
+   -config.file "config.yaml"
+      Config file path
+
  == WECHAT ==
 
    -wechat.apiurl
