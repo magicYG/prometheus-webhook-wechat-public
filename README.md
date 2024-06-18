@@ -1,5 +1,7 @@
 # Webhook adapter for Prometheus & Send Alert To Wechat Group chat
 
+基于[XionZhao/prom-webhook-wechat](https://github.com/XionZhao/prom-webhook-wechat)改进
+
 ## Build
 
 Just type and run: `make build`
