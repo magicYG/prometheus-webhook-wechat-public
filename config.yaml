@@ -1,6 +1,10 @@
-templateid: "xxx"
+# 请替换为您的微信公众号的appid
 appid: "xxx"
+# 请替换为您的微信公众号的secret
 secret: "xxx"
+# 请替换为您的微信公众号模板的templateid
+templateid: "xxx"
+# 告警组 name为组名，chatids下为该告警组下的用户的openid
 chatgroups:
   - name: test
     chatids:
