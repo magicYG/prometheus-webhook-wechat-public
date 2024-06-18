@@ -1,4 +1,4 @@
-# Webhook adapter for Prometheus & Send Alert To Wechat Group chat
+# Webhook adapter for Prometheus & Send Alert To Wechat public account
 
 基于[XionZhao/prom-webhook-wechat](https://github.com/XionZhao/prom-webhook-wechat)改进,使用微信模板消息发送告警
 
@@ -33,11 +33,7 @@ usage: prom-webhook-wechat [<args>]
 
 **Do not add to note that there is behind the token of the capacity(The program will get token by corpid and corpsecret)**
 
-#### Start the single webhook and sent to a single group chat
-```
-./prom-webhook-wechat -wechat.apiurl=api.weixin.qq.com
-```
-#### Start multiple webhook and sent to multiple group chat
+#### Start the single webhook and sent to wechat public account
 ```
 ./prom-webhook-wechat -config.file=config.yaml -wechat.apiurl=api.weixin.qq.com
 ```
@@ -52,6 +48,6 @@ usage: prom-webhook-wechat [<args>]
 告警时间: {{ startsat.DATA }}
 ```
 
-## Test request prom-webhook-wechat
+## Test request prometheus-webhook-wechat-public
 
 To view `exmple/send_alert.sh`
